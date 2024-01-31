@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">SanRafa</string>
+    <string name="titulohomehoteles">Hoteles San Rafael</string>
+    <string name="descripcionhomehoteles">Hoteles en San Rafael, Antioquia: Encanto natural, comodidad moderna. Descubre la belleza de la región en alojamientos acogedores.</string>
+    <string name="titulohomerestaurantes">Restaurantes San Rafael</string>
+    <string name="descripcionhomerestaurantes">Sabores intensos, arepas, bandeja paisa y postres dulces. Tradición culinaria que celebra la riqueza de Antioquia en cada bocado.</string>
 </resources>
