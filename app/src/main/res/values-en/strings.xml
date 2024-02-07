@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+        <string name="botonhomehoteles">Hotels</string>
+        <string name="botonhomerestaurantes">Restaurants</string>
+        <string name="botonsitioshome">Tourist Sites</string>
+        <string name="app_name">SanRafa</string>
+        <string name="titulohomehoteles">San Rafael Hotels</string>
+        <string name="descripcionhomehoteles">Hotels in San Rafael, Antioquia: Natural charm, modern comfort. Discover the beauty of the region in cozy accommodations.</string>
+        <string name="titulohomerestaurantes">San Rafael Restaurants</string>
+        <string name="descripcionhomerestaurantes">Intense flavors, arepas, bandeja paisa, and sweet desserts. Culinary tradition celebrating the richness of Antioquia in every bite.</string>
+        <string name="titulohomesitios">Tourist Sites</string>
+        <string name="menuopcion1">English</string>
+        <string name="menuopcion2">Spanish</string>
+        <string name="menuopcion3">Italian</string>
+        <string name="menuopcion4">Review</string>
+        <string name="menuopcion5">About</string>
+        <string name="Botonhomesitios">See more sites</string>
+        <string name="descripcionhomesitios">San Rafael, Antioquia: Majestic waterfalls, mystical caves, and lush nature. Discover the magic of this Colombian destination.</string>
+        <string name="ResenaSanrafael">San Rafael, Antioquia, captivates with its natural beauty: impressive waterfalls, crystal-clear rivers, and mountain landscapes. This Colombian destination offers a unique experience, blending rural serenity with exciting outdoor activities. Explore the rich local culture and enjoy hospitality in this charming corner.</string>
+        <string name="tituloresena">San Rafael Review</string>
+        <string name="tituloacercade">Diomer Alexander Rua Rua</string>
+        <string name="AcercadeDescripcion">Diomer Alexander Rua Rua stands out for his 28 years of age and solid training in software development, including previous technology at SENA. He exhibits exceptional mastery of programming logic, teamwork skills, and punctuality. His experience and skills make him a valuable asset for any software development team.</string>
+</resources>
