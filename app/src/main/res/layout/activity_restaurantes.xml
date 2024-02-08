@@ -4,6 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/fondorestaurantes"
     tools:context=".Restaurantes">
 
 
@@ -29,6 +30,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/titulohomerestaurantes"
         android:textSize="28dp"
+        android:textColor="@color/azure"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0.05"
@@ -43,6 +45,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/descripcionhomerestaurantes"
         android:textSize="20dp"
+        android:textColor="@color/azure"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0.05"
