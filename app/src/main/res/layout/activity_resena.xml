@@ -39,7 +39,7 @@
         android:id="@+id/descripcionresena"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/ResenaSanrafael"
+        android:text="@string/ResenaCarmen"
         android:textAlignment="center"
         android:textSize="25dp"
         app:layout_constraintBottom_toBottomOf="parent"

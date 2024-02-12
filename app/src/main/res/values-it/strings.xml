@@ -2,22 +2,24 @@
 <resources>
     <string name="botonhomehoteles">Alberghi</string>
     <string name="botonhomerestaurantes">Ristoranti</string>
-    <string name="botonsitioshome">Luoghi Turistici</string>
-    <string name="app_name">SanRafa</string>
-    <string name="titulohomehoteles">Hotel San Rafael</string>
-    <string name="descripcionhomehoteles">Hotel a San Rafael, Antioquia: Fascino naturale, comfort moderno. Scopri la bellezza della regione in alloggi accoglienti.</string>
-    <string name="titulohomerestaurantes">Ristoranti San Rafael</string>
+    <string name="botonsitioshome">Luoghi turistici</string>
+    <string name="app_name">ElCarmen</string>
+    <string name="titulohomehoteles">Alberghi a El Carmen de Viboral</string>
+    <string name="descripcionhomehoteles">Alberghi a El Carmen de Viboral, Antioquia: Fascino naturale, comfort moderno. Scopri la bellezza della regione in alloggi accoglienti.</string>
+    <string name="titulohomerestaurantes">Ristoranti a El Carmen de Viboral</string>
     <string name="descripcionhomerestaurantes">Sapori intensi, arepas, bandeja paisa e dolci dessert. Tradizione culinaria che celebra la ricchezza di Antioquia in ogni boccone.</string>
     <string name="titulohomesitios">Luoghi Turistici</string>
     <string name="menuopcion1">Inglese</string>
     <string name="menuopcion2">Spagnolo</string>
     <string name="menuopcion3">Italiano</string>
     <string name="menuopcion4">Recensione</string>
-    <string name="menuopcion5">Chi siamo</string>
+    <string name="menuopcion5">Informazioni</string>
     <string name="Botonhomesitios">Vedi più luoghi</string>
-    <string name="descripcionhomesitios">San Rafael, Antioquia: Cascate maestose, grotte mistiche e natura lussureggiante. Scopri la magia di questa destinazione colombiana.</string>
-    <string name="ResenaSanrafael">San Rafael, Antioquia, affascina con la sua bellezza naturale: cascate impressionanti, fiumi cristallini e paesaggi montuosi. Questa destinazione colombiana offre un esperienza unica, fonde la serenità rurale con emozionanti attività all aperto. Esplora la ricca cultura locale e goditi l ospitalità in questo angolo affascinante.</string>
-    <string name="tituloresena">Recensione San Rafael</string>
+    <string name="descripcionhomesitios">El Carmen de Viboral, Antioquia: Cascate maestose, grotte mistiche e natura rigogliosa. Scopri la magia di questa destinazione colombiana.</string>
+    <string name="ResenaCarmen">
+        El Carmen de Viboral, Antioquia, affascina con la sua bellezza naturale: cascate mozzafiato, fiumi cristallini e paesaggi montuosi. Questa destinazione colombiana offre un esperienza unica, fondono la serenità rurale con emozionanti attività all aperto. Esplora la ricca cultura locale e goditi l ospitalità in questo angolo affascinante.
+    </string>
+    <string name="tituloresena">Recensione di El Carmen de Viboral</string>
     <string name="tituloacercade">Diomer Alexander Rua Rua</string>
-    <string name="AcercadeDescripcion">Diomer Alexander Rua Rua si distingue per i suoi 28 anni e la solida formazione nello sviluppo software, inclusa una precedente tecnologia presso il SENA. Mostra un eccezionale dominio della logica di programmazione, competenze nel lavoro di gruppo e puntualità. La sua esperienza e competenze lo rendono un valore aggiunto per qualsiasi team di sviluppo software.</string>
+    <string name="AcercadeDescripcion">Diomer Alexander Rua Rua si distingue per i suoi 28 anni di età e la solida formazione nello sviluppo del software, inclusa un esperienza tecnologica precedente presso il SENA. Mostra una padronanza eccezionale della logica di programmazione, competenze di lavoro di squadra e puntualità. La sua esperienza e competenze lo rendono un valore prezioso per qualsiasi team di sviluppo software.</string>
 </resources>
