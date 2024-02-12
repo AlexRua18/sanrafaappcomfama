@@ -29,13 +29,13 @@ public class MainActivity extends AppCompatActivity {
                 //lanzar la nueva actividad
                 Intent nuevaActividad=new Intent(MainActivity.this,Home.class);
                 startActivity(nuevaActividad);
-
+                audio.stop();
             }
         };
 
         Timer tiempo=new Timer();
         tiempo.schedule(inicioAPP,6000);
-        audio.stop();
+
 
     }
 }
