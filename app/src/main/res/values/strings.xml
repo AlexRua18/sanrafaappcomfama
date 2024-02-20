@@ -1,24 +1,24 @@
 <resources>
-<string name="botonhomehoteles">Hoteles</string>
-<string name="botonhomerestaurantes">Restaurantes</string>
-<string name="botonsitioshome">Sitios turísticos</string>
-<string name="app_name">ElCarmen</string>
-<string name="titulohomehoteles">Hoteles El Carmen de Viboral</string>
-<string name="descripcionhomehoteles">Hoteles en El Carmen de Viboral, Antioquia: Encanto natural, comodidad moderna. Descubre la belleza de la región en alojamientos acogedores.</string>
-<string name="titulohomerestaurantes">Restaurantes El Carmen de Viboral</string>
-<string name="descripcionhomerestaurantes">Sabores intensos, arepas, bandeja paisa y postres dulces. Tradición culinaria que celebra la riqueza de Antioquia en cada bocado.</string>
-<string name="titulohomesitios">Sitios Turísticos</string>
-<string name="menuopcion1">Inglés</string>
-<string name="menuopcion2">Español</string>
-<string name="menuopcion3">Italiano</string>
-<string name="menuopcion4">Reseña</string>
-<string name="menuopcion5">Acerca de</string>
-<string name="Botonhomesitios">Ver más sitios</string>
-<string name="descripcionhomesitios">El Carmen de Viboral, Antioquia: Cascadas majestuosas, cuevas místicas y naturaleza exuberante. Descubre la magia de este destino colombiano.</string>
-<string name="ResenaCarmen">
+    <string name="botonhomehoteles">Hoteles</string>
+    <string name="botonhomerestaurantes">Restaurantes</string>
+    <string name="botonsitioshome">Sitios turísticos</string>
+    <string name="app_name">ElCarmen</string>
+    <string name="titulohomehoteles">Hoteles El Carmen de Viboral</string>
+    <string name="descripcionhomehoteles">Hoteles en El Carmen de Viboral, Antioquia: Encanto natural, comodidad moderna. Descubre la belleza de la región en alojamientos acogedores.</string>
+    <string name="titulohomerestaurantes">Restaurantes El Carmen de Viboral</string>
+    <string name="descripcionhomerestaurantes">Sabores intensos, arepas, bandeja paisa y postres dulces. Tradición culinaria que celebra la riqueza de Antioquia en cada bocado.</string>
+    <string name="titulohomesitios">Sitios Turísticos</string>
+    <string name="menuopcion1">Inglés</string>
+    <string name="menuopcion2">Español</string>
+    <string name="menuopcion3">Italiano</string>
+    <string name="menuopcion4">Reseña</string>
+    <string name="menuopcion5">Acerca de</string>
+    <string name="Botonhomesitios">Ver más sitios</string>
+    <string name="descripcionhomesitios">El Carmen de Viboral, Antioquia: Cascadas majestuosas, cuevas místicas y naturaleza exuberante. Descubre la magia de este destino colombiano.</string>
+    <string name="ResenaCarmen">
         El Carmen de Viboral, Antioquia, cautiva con su belleza natural: cascadas impresionantes, ríos cristalinos y paisajes montañosos. Este destino colombiano ofrece una experiencia única, fusionando la serenidad rural con emocionantes actividades al aire libre. Descubre la rica cultura local y disfruta de la hospitalidad en este rincón encantador.
     </string>
-<string name="tituloresena">Reseña El Carmen de Viboral</string>
-<string name="tituloacercade">Diomer Alexander Rua Rua</string>
-<string name="AcercadeDescripcion">Diomer Alexander Rua Rua destaca por sus 28 años de edad y sólida formación en desarrollo de software, incluyendo una tecnología previa en el SENA. Exhibe un excepcional dominio de lógica de programación, habilidades para el trabajo en grupo y puntualidad. Su experiencia y habilidades hacen de él un activo valioso para cualquier equipo de desarrollo de software.</string>
+    <string name="tituloresena">Reseña El Carmen de Viboral</string>
+    <string name="tituloacercade">Diomer Alexander Rua Rua</string>
+    <string name="AcercadeDescripcion">Diomer Alexander Rua Rua destaca por sus 28 años de edad y sólida formación en desarrollo de software, incluyendo una tecnología previa en el SENA. Exhibe un excepcional dominio de lógica de programación, habilidades para el trabajo en grupo y puntualidad. Su experiencia y habilidades hacen de él un activo valioso para cualquier equipo de desarrollo de software.</string>
 </resources>
