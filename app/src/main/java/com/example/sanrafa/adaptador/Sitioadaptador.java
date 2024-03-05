@@ -1,5 +1,6 @@
 package com.example.sanrafa.adaptador;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -11,6 +12,8 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.sanrafa.R;
 import com.example.sanrafa.molde.Sitio;
+import com.example.sanrafa.restaurantes_ampliados;
+import com.example.sanrafa.sitios_ampliados;
 
 import java.util.ArrayList;
 
@@ -59,6 +62,15 @@ public class Sitioadaptador extends RecyclerView.Adapter<Sitioadaptador.viewHold
             Fotomoldesitios.setImageResource(sitio.getFotografia());
             nombresitiosmolde.setText(sitio.getNombre());
             contactositiomolde.setText(sitio.getTelefono());
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(itemView.getContext(), sitios_ampliados.class);
+                    intent.putExtra("datossitio",sitio);
+                    itemView.getContext().startActivity(intent);
+                }
+            });
         }
     }
 }

@@ -1,5 +1,6 @@
 package com.example.sanrafa.adaptador;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -10,7 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.sanrafa.R;
+import com.example.sanrafa.hoteles_ampliados;
 import com.example.sanrafa.molde.Restaurante;
+import com.example.sanrafa.restaurantes_ampliados;
 
 import java.util.ArrayList;
 
@@ -59,6 +62,16 @@ public class Restauranteadaptador extends RecyclerView.Adapter<Restauranteadapta
             Fotomolderestaurante.setImageResource(restaurante.getFotografia());
             nombrerestaurantemolde.setText(restaurante.getNombre());
             preciorestaurantemolde.setText(restaurante.getPrecio());
+
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    Intent intent = new Intent(itemView.getContext(), restaurantes_ampliados.class);
+                    intent.putExtra("datosrestaurante",restaurante);
+                    itemView.getContext().startActivity(intent);
+                }
+            });
         }
+
     }
 }

@@ -25,7 +25,7 @@ public class Listarestaurantes extends AppCompatActivity {
         recyclerviewRestaurantes=findViewById(R.id.listadinamicarestaurantes);
         recyclerviewRestaurantes.setLayoutManager(new LinearLayoutManager(this, RecyclerView.VERTICAL,false));
         crearListaRestaurantes();
-        Restauranteadaptador adaptador = new Restauranteadaptador();
+        Restauranteadaptador adaptador = new Restauranteadaptador(listaRestaurantes);
         recyclerviewRestaurantes.setAdapter(adaptador);
     }
     public void crearListaRestaurantes()
