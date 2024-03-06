@@ -17,6 +17,12 @@ public class restaurantes_ampliados extends AppCompatActivity {
     ImageView imagenRestaurante;
     TextView Calificacionrestaurante;
 
+    TextView descripcionrestaurantemolde;
+
+    TextView telefonorestaurantemolde;
+
+    TextView direccionrestaurantemolde;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -27,11 +33,17 @@ public class restaurantes_ampliados extends AppCompatActivity {
 
         imagenRestaurante=findViewById(R.id.FotoampliadoRestaurantes);
 
-        Calificacionrestaurante = findViewById(R.id.calificacionampliandoRestaurantes);
+        Calificacionrestaurante = findViewById(R.id.calificacionampliandorestaurantes);
+        descripcionrestaurantemolde = findViewById(R.id.descripcionrestaurantemolde);
+        telefonorestaurantemolde = findViewById(R.id.telefonorestaurantemolde);
+        direccionrestaurantemolde = findViewById(R.id.direccionrestaurantemolde);
 
         datosrestaurante=(Restaurante) getIntent().getSerializableExtra("datosrestaurante");
         tituloRestaurante.setText(datosrestaurante.getNombre());
         imagenRestaurante.setImageResource(datosrestaurante.getFotografia());
         Calificacionrestaurante.setText(Integer.toString( datosrestaurante.getCalificacion()));
+        descripcionrestaurantemolde.setText(datosrestaurante.getDescripcion());
+        telefonorestaurantemolde.setText(datosrestaurante.getTelefono());
+        direccionrestaurantemolde.setText(datosrestaurante.getDireccion());
     }
 }

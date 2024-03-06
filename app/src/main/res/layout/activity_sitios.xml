@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondositios"
+    android:background="#25D6C7"
     tools:context=".Sitios">
 
     <TextView
@@ -20,6 +20,7 @@
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0.05"
+        android:textColor="@color/coral"
         />
 
     <TextView
@@ -31,6 +32,7 @@
         android:textAlignment="center"
         android:textSize="20dp"
         android:textStyle="bold"
+        android:textColor="@color/azure"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
@@ -40,28 +42,45 @@
 
     <ImageView
         android:id="@+id/bannersitios"
-        android:layout_width="406dp"
-        android:layout_height="290dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         android:layout_marginTop="12dp"
         android:adjustViewBounds="true"
         android:src="@drawable/sitios"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintEnd_toStartOf="@+id/bannersitios2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/descripcionsitios"
+        app:layout_constraintBottom_toTopOf="@+id/botonhomesitios"
+        android:scaleType="fitXY"
+        />
+
+    <ImageView
+        android:id="@+id/bannersitios2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="12dp"
+        android:adjustViewBounds="true"
+        android:src="@drawable/fondositios"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="1.0"
-
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/descripcionsitios" />
+        app:layout_constraintStart_toEndOf="@+id/bannersitios"
+        app:layout_constraintTop_toBottomOf="@id/descripcionsitios"
+        app:layout_constraintBottom_toTopOf="@+id/botonhomesitios"
+        android:scaleType="fitXY"/>
 
     <Button
         android:id="@+id/botonhomesitios"
-        android:layout_width="250dp"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="100dp"
         app:layout_constraintTop_toBottomOf="@id/bannersitios"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintVertical_bias="0.3"
         app:layout_constraintHorizontal_bias="0.5"
-        android:backgroundTint="@color/green"
+        android:textSize="25dp"
+        android:backgroundTint="@color/coral"
         android:text="@string/Botonhomesitios"
 
         />

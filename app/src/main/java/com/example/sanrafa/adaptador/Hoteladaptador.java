@@ -60,18 +60,25 @@ public class Hoteladaptador extends RecyclerView.Adapter<Hoteladaptador.viewHold
         TextView preciohotelmolde;
 
 
+
         public viewHolder(@NonNull View itemView) {
 
             super(itemView);
             Fotomoldehotel = itemView.findViewById(R.id.Fotomoldehotel);
             nombrehotelmolde = itemView.findViewById(R.id.nombrehotelmolde);
             preciohotelmolde = itemView.findViewById(R.id.preciohotelmolde);
+
+
         }
 
         public void pintarmolde(Hotel hotel) {
             Fotomoldehotel.setImageResource(hotel.getFotografia());
             nombrehotelmolde.setText(hotel.getNombre());
             preciohotelmolde.setText(hotel.getPrecio());
+
+
+
+
 
             itemView.setOnClickListener(new View.OnClickListener() {
                 @Override

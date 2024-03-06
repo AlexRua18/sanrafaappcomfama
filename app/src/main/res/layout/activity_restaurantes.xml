@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/fondorestaurantes"
+    android:background="#57C027"
     tools:context=".Restaurantes">
 
 
@@ -45,7 +45,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         android:text="@string/descripcionhomerestaurantes"
         android:textSize="20dp"
-        android:textColor="@color/darksalmon"
+        android:textColor="@color/azure"
         android:textAlignment="center"
         android:textStyle="bold"
         app:layout_constraintVertical_bias="0.05"
@@ -53,13 +53,28 @@
         />
     <ImageView
         android:id="@+id/bannerhoteles"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
         app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/bannerhoteles2"
+        app:layout_constraintBottom_toBottomOf="parent"
         android:src="@drawable/bannerrestaurante"
         android:adjustViewBounds="true"
+        android:scaleType="fitXY"
+
+        />
+    <ImageView
+        android:id="@+id/bannerhoteles2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        app:layout_constraintTop_toBottomOf="@id/descripcionrestaurantes"
+        app:layout_constraintStart_toEndOf="@+id/bannerhoteles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/fondorestaurantes"
+        android:adjustViewBounds="true"
+        android:scaleType="fitXY"
 
         />
 
